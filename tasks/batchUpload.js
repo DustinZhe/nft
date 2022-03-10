@@ -10,7 +10,7 @@ const uploadPromise = (
   fileName,
   file,
   wallet_address,
-  duration = 180,
+  duration = 525,
   file_type = '0',
 ) => {
   const form = new FormData()
